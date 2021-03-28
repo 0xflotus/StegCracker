@@ -86,7 +86,7 @@ $ pip3 install stegcracker -U --force-reinstall
       `python3.X -m pip install -U stegcracker`
       
 * I installed the tool, but when I run `stegcracker` it just returns 'command not found'
-    * Chances are your Python's `bin` directory is not in your PATH envrionment variable. 
+    * Chances are your Python's `bin` directory is not in your PATH environment variable. 
       As a dirty fix you could add the following to your `~/.bashrc` file: `alias stegcracker='python3 -m stegcracker'`
 
 * I'm using StegCracker 1.X, how do I upgrade?
